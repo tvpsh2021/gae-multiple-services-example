@@ -1,0 +1,5 @@
+dispatch:
+  - url: "jimmmmy.com/*"
+    service: default
+  - url: "blog.jimmmmy.com/*"
+    service: blog

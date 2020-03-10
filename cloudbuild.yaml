@@ -1,0 +1,6 @@
+steps:
+  - name: 'gcr.io/cloud-builders/gcloud'
+    args: ['app', 'deploy', 'resume/app.yaml', 'blog/app.blog.yaml']
+  - name: 'gcr.io/cloud-builders/gcloud'
+    args: ['app', 'deploy', 'dispatch.yaml']
+timeout: 300s
